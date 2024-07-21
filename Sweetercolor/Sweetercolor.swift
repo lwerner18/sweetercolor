@@ -333,7 +333,7 @@ extension UIColor {
      
         - returns: A CGFloat representing the deltaE
     */
-    func CIE94(compare color: UIColor) -> CGFloat {
+    public func CIE94(compare color: UIColor) -> CGFloat {
         // https://en.wikipedia.org/wiki/Color_difference#CIE94
         
         let k_L:CGFloat = 1
