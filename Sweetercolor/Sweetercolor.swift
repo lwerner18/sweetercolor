@@ -381,7 +381,7 @@ extension UIColor {
      
         - returns: A CGFloat representing the deltaE
     */
-    func CIEDE2000(compare color: UIColor) -> CGFloat {
+    public func CIEDE2000(compare color: UIColor) -> CGFloat {
         // CIEDE2000, Sharma 2004 -> http://www.ece.rochester.edu/~gsharma/ciede2000/ciede2000noteCRNA.pdf
         
         func rad2deg(r: CGFloat) -> CGFloat {
